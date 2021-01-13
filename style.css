@@ -1,0 +1,195 @@
+/* font-family: 'Fraunces', serif; */
+
+/* univesal style */
+*, *::after, *::before
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'Fraunces', serif;
+}
+
+
+/* headerSection style */
+.headerSection
+{
+  background: #000349;
+  color: #fff;
+  font-size: 3.7rem;
+  display: flex;
+  padding: 1.4rem 3rem;
+  justify-content: space-between;
+}
+
+/* headerLinks */
+.headerLinks
+{
+  padding: 0 1rem;
+  font-weight: 400;
+}
+
+
+/* introSection */
+.introSection
+{
+  padding: 1rem 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.introLine
+{
+  font-size: 5rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+.thinText{
+  font-weight: 300;
+  color: #aaa;
+}
+
+.thickText
+{
+  position: relative;
+  top: -2.4rem;
+}
+
+.introParagraph
+{
+  color: #aaa;
+  font-size: 2rem;
+  font-weight: 200;
+  position: relative;
+  top: -2rem;
+}
+
+
+/* designContainer style */
+.designContainer
+{
+  margin-top: 2rem;
+  padding: 0 5rem;
+  /* height: 156vh; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.supervisor
+{
+  align-self: flex-start;
+  position: relative;
+  top: -15rem;
+  right: -7rem;
+}
+
+.calculator
+{
+  align-self: flex-end;
+  position: relative;
+  top: -45rem;
+  left: -7.1rem;
+}
+
+.karma{
+  position: relative;
+  top: -61.4rem;
+}
+
+
+.designDivs
+{
+  width: 40rem;
+  padding:0 0 3rem 0;
+  margin-top: 2rem;
+  background-color: #fff;
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 1rem 1rem 3rem  #dde, -1rem -1rem 3rem  #eee;
+}
+
+.designImg
+{
+  width: 8rem;
+  margin-top: 5rem;
+  margin-right: 5rem;
+  align-self: flex-end;
+
+}
+
+.designtext
+{
+  font-size: 3.2rem;
+  margin: 3rem 0 1.3rem 3rem;
+  font-weight: 500;
+}
+
+
+.designPara
+{
+  font-size: 1.8rem;
+  margin-left: 3rem;
+  line-height: 2rem;
+  color: #aaa;
+}
+
+.teamBuilder::before
+{
+  content: "";
+  background-color: #e30000;
+  width: 100%;
+  height: 0.7rem;
+  z-index: 9;
+}
+
+.supervisor::before
+{
+  content: "";
+  background-color: #00ff9c;
+  width: 100%;
+  height: 0.7rem;
+  z-index: 9;
+}
+
+
+.calculator::before
+{
+  content: "";
+  background-color: #007dff;
+  width: 100%;
+  height: 0.7rem;
+  z-index: 9;
+}
+
+.karma::before
+{
+  content: "";
+  background-color: #fff500;
+  width: 100%;
+  height: 0.7rem;
+  z-index: 9;
+}
+
+
+.footer
+{
+  background:#000349;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
